@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When the RadioButton is checked and incorrect -->
+    <item android:drawable="@drawable/red_background" android:state_checked="true" />
+    <!-- Default background when RadioButton is not checked or correct -->
+    <item android:drawable="@android:color/transparent" />
+</selector>

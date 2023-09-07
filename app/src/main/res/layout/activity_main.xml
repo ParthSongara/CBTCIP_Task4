@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="18dp"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:id="@+id/questionTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/question"
+    android:textSize="25sp"
+    android:textStyle="bold"
+        android:layout_marginTop="140dp"
+    android:textColor="@color/black"
+    android:paddingBottom="16dp"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/choicesRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/choice1RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/choice_1"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/choice2RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/choice_2"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/choice3RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/choice_3"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/choice4RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/choice_4"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/replayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/replay"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+</LinearLayout>

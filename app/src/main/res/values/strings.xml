@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CBTCIP_Task4</string>
+    <string name="submit">Submit</string>
+    <string name="choice_4">Choice 4</string>
+    <string name="choice_3">Choice 3</string>
+    <string name="choice_2">Choice 2</string>
+    <string name="choice_1">Choice 1</string>
+    <string name="question">Question</string>
+    <string name="replay">Replay</string>
+</resources>
